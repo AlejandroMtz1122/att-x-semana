@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true">
+
+  <div class="header">
+    <ion-title class="title">Bienvenido a AT&T</ion-title>
+    <p class="subTitle">Registrate!</p>
+  </div>
+
+  <div>
+    <ion-img src="assets/att-images/att_circle_white.png" style="height: 50px;"></ion-img>
+  </div>
+  
+  <form>
+    <div class="ion-padding">
+      <ion-item >
+        <ion-input placeholder="Usuario" class="input" style="color: black;"></ion-input>
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Email" class="input" style="color: black;"></ion-input>
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-item>
+      <ion-item>
+        <ion-input placeholder="Contraseña" class="input" style="color: black;"></ion-input>
+        <ion-icon name="lock-closed-outline"></ion-icon>
+      </ion-item>
+    </div>
+    
+    <div class="loginLink"> 
+      <p> ¿Ya estás registrado?<a [routerLink]="['/login']" style="color: blueviolet;"> Inicia Sesión</a></p>
+    </div>
+
+  </form>
+</ion-content>
