@@ -1,0 +1,7 @@
+{
+  "name": "ATT x Semana",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
